@@ -9,7 +9,9 @@
     <link type="text/css" rel="stylesheet" href="css/style.css" />
     <link type="text/css" href="css/resume.min.css" rel="stylesheet">
     <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link type="text/css" href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 
@@ -29,8 +31,8 @@
                 </li>
                 <li class="listaNav"><a href="#sobreMi"><i class="material-icons">face</i>SOBRE MI</a></li>
                 <li class="listaNav"><a href="#educacion"><i class="material-icons">school</i>EDUCACIÓN</a></li>
-                <li class="listaNav"><a href="#!"><i class="material-icons">work</i>EXPERIENCIA</a></li>
-                <li class="listaNav"><a href="#!"><i class="material-icons">check circle</i>HABILIDADES</a></li>
+                <li class="listaNav"><a href="#experiencia"><i class="material-icons">work</i>EXPERIENCIA</a></li>
+                <li class="listaNav"><a href="#habilidades"><i class="material-icons">check circle</i>HABILIDADES</a></li>
                 <li class="listaNav noHover" id="contacto"><a href="#!">CONTACTO</a></li>
                 <li>
                     <ul id="redesSociales">
@@ -77,7 +79,7 @@
                 <div class="resume-item d-flex flex-column flex-md-row">
                     <div class="resume-content mr-auto">
                         <h3 class="mb-0">Salesianos San Juan Bosco</h3>
-                        <div class="subheading mb-3" style="color: #868e96;">Bachillerato Cientifico Técnico</div>
+                        <div class="subheading mb-3" style="color: #868e96;">Bachillerato Científico Técnico</div>
                     </div>
                     <div class="resume-date text-md-right">
                         <span class="text-primary">Septiembre 2013 - Junio 2015</span>
@@ -85,25 +87,74 @@
                 </div>
             </div>
         </section>
-        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5" style="font-size: 3rem;color: #343a40;line-height: 1.5;">Experiencia</h2>
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Tecnico en sistemas de cronometraje electronico </h3>
-              <div class="subheading mb-3">Federación Natación Comunidad Valenciana</div>
-              <p>Montaje y administración de equipos de cronometraje para competiciones de natación de alto nivel,
-                 he realizado competiciones combocadas por la federación de natación por toda la comunidad valenciana.</p>
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experiencia">
+            <div class="my-auto">
+                <h2 class="mb-5" style="font-size: 3rem;color: #343a40;line-height: 1.5;">Experiencia</h2>
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Tecnico en sistemas de cronometraje electrónico </h3>
+                        <div class="subheading mb-3">Federación Natación Comunidad Valenciana</div>
+                        <p>Montaje y administración de equipos de cronometraje para competiciones de natación de alto nivel, he realizado competiciones combocadas por la federación de natación por toda la comunidad valenciana.</p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Junio 2017 - Presente</span>
+                    </div>
+                </div>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">March 2013 - Present</span>
+        </section>
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="habilidades">
+            <div class="my-auto">
+                <h2 class="mb-5" style="font-size: 3rem;color: #343a40;line-height: 1.5;">Habilidades</h2>
+
+                <div class="subheading mb-3">Lenguajes De Programación &amp; Herramientas</div>
+                <ul class="list-inline list-icons">
+                    <li class="list-inline-item">
+                        <i class="devicon-html5-plain-wordmark colored"></i>
+                    </li>
+                    <li class="list-inline-item">
+                       <i class="devicon-css3-plain-wordmark colored"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="devicon-javascript-plain colored"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="devicon-java-plain-wordmark colored"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="devicons devicons-nodejs"></i>
+                    </li>
+                    <br>
+                    <li class="list-inline-item">
+                        <i class="devicon-android-plain-wordmark colored"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="devicon-tomcat-line-wordmark colored"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="devicon-visualstudio-plain colored"></i>
+                    </li>
+                </ul>
+
+                <div class="subheading mb-3">Cursos De Formación</div>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <i class="material-icons">spellcheck</i>Curso Online De Desarrollo JEE con JSF, HIBERNATE y SPRING</li>
+                    <li>
+                        <i class="material-icons">spellcheck</i>Curso Inmersión en Lengua Inglesa</li>
+                </ul>
+                <div class="subheading mb-3" style="margin-top: 2.5%;">Idiomas</div>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <i class="material-icons">spellcheck</i>Ingles Nivel B1</li>
+                    <li>
+                        <i class="material-icons">spellcheck</i>Valenciano Nivel Mitja</li>
+                </ul>
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
     </main>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 
