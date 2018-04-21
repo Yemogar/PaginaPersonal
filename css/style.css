@@ -13,10 +13,24 @@ div.avatar {
     background-size: 100% auto;
 }
 
+div.subheading {
+    color: #868e96;
+}
+
+.titulos {
+    font-size: 3rem;
+    color: #343a40;
+    line-height: 1.5;
+}
+
+#espacioLenguas {
+    margin-top: 2.5%;
+}
+
 #nombre {
-    font-family: 'Saira Extra Condensed',serif;
+    font-family: 'Saira Extra Condensed', serif;
     font-size: 6rem;
-    line-height: 4rem; 
+    line-height: 4rem;
 }
 
 #redesSociales li {
