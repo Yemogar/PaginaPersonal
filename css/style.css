@@ -23,6 +23,10 @@ div.subheading {
     line-height: 1.5;
 }
 
+#textoDescripcion {
+    font-size: 1.25rem;
+}
+
 #espacioLenguas {
     margin-top: 2.5%;
 }
